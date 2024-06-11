@@ -2,6 +2,17 @@
 
 This Java application is a Spring Boot application that interacts with the Dynamic Sessions API. It retrieves environment variables, makes a POST request to the API, and calls methods from other classes to upload, list, and download files.
 
+## Media
+
+Check out the Blog Post on Microsoft DevBlogs:
+
+[![Check out the blog post](https://devblogs.microsoft.com/java/wp-content/uploads/sites/51/2024/06/acadynamicsessionsthumbnail-1024x536.jpg)](https://devblogs.microsoft.com/java/using-java-with-aca-dynamic-sessions/
+)
+
+Watch the recording on YouTube:
+
+[![Watch the video](https://img.youtube.com/vi/yCo4catePso/0.jpg)](https://www.youtube.com/watch?v=yCo4catePso)
+
 ## Prerequisites: 
 
 You will need the following prerequisites:
@@ -80,7 +91,6 @@ az containerapp sessionpool create \
 To run the application, use the following command:
 
 ```bash
-mvn clean install
 mvn spring-boot:run
 ```
 
